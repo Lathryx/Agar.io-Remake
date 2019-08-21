@@ -1,0 +1,29 @@
+.aligncenter {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+ -moz-animation: glow 1s ease-in-out infinite alternate;
+ animation: glow 1s ease-in-out infinite alternate;
+}
+
+body {
+    font-family: "Comic Sans MS";
+    background-color: rgb(60, 60, 80);
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d1390f, 0 0 40px #d1390f, 0 0 50px #d1390f, 0 0 60px #d1390f, 0 0 70px #d1390f;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #1c9143, 0 0 40px #1c9143, 0 0 50px #1c9143, 0 0 60px #1c9143, 0 0 70px #1c9143, 0 0 80px #1c9143;
+  }
+  from {
+    text-shadow: 0 0 20px #fff, 0 0 30px #1c9143, 0 0 40px #1c9143, 0 0 50px #1c9143, 0 0 60px #1c9143, 0 0 70px #1c9143, 0 0 80px #1c9143;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3a42a1, 0 0 40px #3a42a1, 0 0 50px #3a42a1, 0 0 60px #3a42a1, 0 0 70px #3a42a1, 0 0 80px #3a42a1;
+  }
+}
